@@ -1,0 +1,25 @@
+<?xml version ="1.0" encoding ="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_url_setting"
+        android:icon="@drawable/outline_open_in_browser_white_24"
+        android:title="Go To"
+        app:actionLayout="@layout/layout_action_edit"
+        app:showAsAction="always|collapseActionView"/>
+    <item
+        android:id="@+id/action_block"
+        android:icon="@drawable/outline_lock_open_white_24"
+        android:title="Block Hyperlink"
+        app:showAsAction="always|collapseActionView"/>
+    <item
+        android:id="@+id/action_reset"
+        android:icon="@drawable/outline_delete_sweep_white_24"
+        android:title="Reset"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/outline_turned_in_not_white_24"
+        android:title="Settings"
+        app:showAsAction="ifRoom|collapseActionView"/>
+</menu>
